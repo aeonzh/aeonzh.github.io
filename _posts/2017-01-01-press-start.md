@@ -3,6 +3,7 @@ layout: post
 title:  "Press Start!"
 date:   2017-01-01 16:49:00 +0000
 categories: 
+published: false
 ---  
 I am starting to use Vim on a daily basis mainly for better productivity, Vim's shortcuts and the entire environment which doesn't include the mouse is fantastic \*thumbs up\* and naturally to get the feel to be more like a "pro". That said I still love Sublime Text and I believe I will stick with it for a long time, not to mention that I kind of dislike Atom, for some reason the feeling isn't great and even though I tried to switch to it many times in different times of the development I just don't like it (sorry Atom fans out there). Oh yeah VS Code is not bad, good job Microsoft.
 
