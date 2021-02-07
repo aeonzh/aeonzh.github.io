@@ -1,5 +1,6 @@
 baseURL: https://zhenghe.hu
-disablePathToLower: true
-languageCode: en-us
 title: aeonzh
+theme: tale-hugo
+disablePathToLower: true
 enableEmoji: true
+
