@@ -1,0 +1,5 @@
+baseURL: https://zhenghe.hu
+disablePathToLower: true
+languageCode: en-us
+title: aeonzh
+enableEmoji: true

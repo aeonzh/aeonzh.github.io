@@ -1,8 +1,7 @@
 ---
-tag: #🌿
-layout: post
-title:  "Getting out of the rabbit hole"
-date:   2021-01-31 23:45:00 +0000
+date: "2021-01-31T23:45:00Z"
+title: Getting out of the rabbit hole
+published: true
 ---
 
 Lately I've been finding myself often lost in Wonderland.
@@ -19,6 +18,6 @@ Back to our previous rabbit hole. While the learning outcomes will probably help
 
 I am going to revisit this page some time in the future, while leaving some link that was resonating with me.
 
-[Getting Lost and Angry Changing a Light Bulb](https://www.beingproductive.org/2020/08/getting-lost-and-angry-changing-a-light-bulb/)
-[How to conquer legacy code](https://www.freecodecamp.org/news/conquer-legacy-code-f9e23a6ab758/)
-[Don't fall into the trap of precrastination](https://lifehacker.com/dont-fall-into-the-trap-of-precrastination-1844580800)
+- [Getting Lost and Angry Changing a Light Bulb](https://www.beingproductive.org/2020/08/getting-lost-and-angry-changing-a-light-bulb/)
+- [How to conquer legacy code](https://www.freecodecamp.org/news/conquer-legacy-code-f9e23a6ab758/)
+- [Don't fall into the trap of precrastination](https://lifehacker.com/dont-fall-into-the-trap-of-precrastination-1844580800)
