@@ -3,4 +3,4 @@ title: Zheng He Hu
 theme: tale-hugo
 disablePathToLower: true
 enableEmoji: true
-
+publishDir: docs
