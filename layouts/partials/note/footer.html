@@ -1,0 +1,8 @@
+{{ $wikilink :=  print "\\[\\[" .File.BaseFileName "\\]\\]" }}
+
+<h2>Backlinks</h2>
+{{ range .Site.RegularPages }}
+    {{ if findRE $wikilink .Content }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+{{ end }}
