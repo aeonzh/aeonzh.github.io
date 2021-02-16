@@ -1,0 +1,5 @@
+<div class="post-info">
+    {{- if .Lastmod }}
+        <span>Last modified on&nbsp;</span><time datetime="{{ .Lastmod }}">{{ .Lastmod.Format "2 January, 2006" }}</time>
+    {{- end }}
+</div>
