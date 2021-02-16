@@ -1,7 +1,14 @@
 ---
-date: "2021-01-31T23:45:00Z"
-title: Getting out of the rabbit hole
+aliases: ""
+date: 2021-01-31
+description: ""
 published: true
+keywords: ""
+layout: single
+lastmod: ""
+title: "Getting out of the rabbit hole"
+tags:
+  - draft
 ---
 
 Lately I've been finding myself often lost in Wonderland.
