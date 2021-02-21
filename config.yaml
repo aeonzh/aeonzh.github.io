@@ -12,3 +12,12 @@ menu:
     name: Notes
     url: /notes/
     weight: 0
+
+params:
+  social:
+  - name: email
+    url: "mailto:hello@zhenghe.hu"
+  - name: twitter
+    url: https://twitter.com/aeonzh
+  - name: github
+    url: https://github.com/aeonzh

@@ -1,0 +1,9 @@
+<div>
+    {{ range .Site.Params.social }}
+    <a href="{{ .url }}">
+        <span style="display: inline-block; height: 1.7rem; width: 1.7rem; margin:0.7rem">
+            {{ readFile ( print "resources/social/" .name ".svg" ) | safeHTML }}
+        </span>
+    </a>
+    {{ end }}
+</div>
