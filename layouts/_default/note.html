@@ -15,8 +15,7 @@
             {{ end }}
         {{ end }}
         {{ $build.Get "content" | .RenderString | safeHTML }}
-
-		{{ partial "note/footer.html" . }}
+		{{ partial "note/backlinks.html" . }}
 	</div>
 </main>
 
