@@ -46,5 +46,5 @@ Use cases: Infrequent/Variable/Unpredictable/Development and testing: e.g. new a
 - With **endpoints** you don't have to point to the single hostnames, AWS does it for you, hence a little bit of management relief (I believe)
 
 # Question I still have
-- A part from the fact that Aurora, due the infrastructure is faster than traditional RDS. Conceptually, having cross-region RDS replicas and using Aurora Global Database are the same?
+- A part from the fact that Aurora, due the infrastructure is faster than traditional RDS. Conceptually, having cross-region RDS replicas and using Aurora Global Database are the same?  
 *Update after some months of use:* the result would be very similar, the gains would be in terms of performance (storage-only clones VS creating entire instance replicas)
