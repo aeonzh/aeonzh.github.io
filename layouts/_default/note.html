@@ -5,16 +5,15 @@
 		{{ partial "note/post-info.html" . }}
 		{{ partial "single/title.html" . }}
 
-        {{ $build := newScratch }}
-        {{ $build.Set "content" .RawContent }}
+        {{ .Scratch.Set "content" .RawContent }}
         {{ range .Site.RegularPages }}
             {{ $wikilink :=  print "\\[\\[" .File.BaseFileName "\\]\\]" }}
             {{ if findRE $wikilink $.RawContent }}
                 {{ $markdown_link := printf "[%s](%s)" .File.BaseFileName .Permalink }}
-                {{ $build.Set "content" (replaceRE $wikilink $markdown_link ($build.Get "content")) }} 
+                {{ $.Scratch.Set "content" (replaceRE $wikilink $markdown_link ($.Scratch.Get "content")) }} 
             {{ end }}
         {{ end }}
-        {{ $build.Get "content" | .RenderString | safeHTML }}
+        {{ $.Scratch.Get "content" | .RenderString | safeHTML }}
         {{ if .Page.IsPage }}
             {{ partial "note/backlinks.html" . }}
         {{ end }}
