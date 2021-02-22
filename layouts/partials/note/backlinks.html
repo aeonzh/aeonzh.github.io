@@ -1,8 +1,14 @@
 {{ $wikilink :=  print "\\[\\[" .File.BaseFileName "\\]\\]" }}
 
-<h2>Backlinks</h2>
 {{ range .Site.RegularPages }}
     {{ if findRE $wikilink .Content }}
+        {{ $.Scratch.Add "backlinks" (slice .) }}
+    {{ end }}
+{{ end }}
+
+{{ if (.Scratch.Get "backlinks") }}
+    <h2>Backlinks</h2>
+    {{ range (.Scratch.Get "backlinks") }}
         <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
     {{ end }}
 {{ end }}
