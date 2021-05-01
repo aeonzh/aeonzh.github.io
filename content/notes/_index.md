@@ -17,3 +17,4 @@ Since this is my first implementation of the idea, it currently looks more of a 
 Example notes:
 - [[Ego is the Enemy]] by [[Ryan Holiday]]
 - [[Amazon Aurora]]
+- [[Thinking, Fast and Slow]]
