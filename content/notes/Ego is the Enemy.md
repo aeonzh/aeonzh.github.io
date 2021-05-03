@@ -1,11 +1,11 @@
 ---
-aliases: ""
+aliases:
 date: 2021-02-12
-description: ""
+description:
 published: true
-keywords: ""
+keywords:
 layout: note
-title: "Ego is the Enemy"
+title: Ego is the Enemy
 tags:
   - books
 ---

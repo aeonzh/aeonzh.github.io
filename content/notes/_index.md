@@ -1,10 +1,10 @@
 ---
-aliases: ""
-description: ""
+aliases:
+description:
 published: true
-keywords: ""
+keywords:
 layout: note
-title: ""
+title:
 ---
 Hello there, my name is Zheng He.
 

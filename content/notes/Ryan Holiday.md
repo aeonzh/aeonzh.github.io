@@ -1,11 +1,11 @@
 ---
-aliases: ""
+aliases:
 date: 2021-02-12
-description: ""
+description:
 published: true
-keywords: ""
+keywords:
 layout: note
-title: "Ryan Holiday"
+title: Ryan Holiday
 tags:
   - draft
 ---

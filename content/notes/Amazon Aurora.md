@@ -1,6 +1,6 @@
 ---
 aliases: 
-date: 2020-07-15 09:32
+date: 2020-07-15
 description: 
 published: true
 keywords: 

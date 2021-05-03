@@ -1,11 +1,11 @@
 ---
-aliases: ""
+aliases:
 date: 2021-05-01
-description: ""
+description:
 published: true
-keywords: ""
+keywords:
 layout: note
-title: "Thinking, Fast and Slow"
+title: Thinking, Fast and Slow
 tags:
   - books
 ---
