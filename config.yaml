@@ -2,7 +2,8 @@ baseURL: https://zhenghe.hu
 title: Zheng He Hu
 Author: 
   name: Zheng He Hu
-theme: tale-hugo
+
+theme: "github.com/aeonzh/tale-hugo"
 disablePathToLower: true
 enableGitInfo: true
 enableEmoji: true
