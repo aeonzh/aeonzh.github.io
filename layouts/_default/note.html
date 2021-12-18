@@ -4,16 +4,7 @@
 	<div class="post">
 		{{ partial "note/post-info.html" . }}
 		{{ partial "single/title.html" . }}
-
-        {{ .Scratch.Set "content" .RawContent }}
-        {{ range .Site.RegularPages }}
-            {{ $wikilink :=  print "\\[\\[" .File.BaseFileName "\\]\\]" }}
-            {{ if findRE $wikilink $.RawContent }}
-                {{ $markdown_link := printf "[%s](%s)" .File.BaseFileName .Permalink }}
-                {{ $.Scratch.Set "content" (replaceRE $wikilink $markdown_link ($.Scratch.Get "content")) }} 
-            {{ end }}
-        {{ end }}
-        {{ $.Scratch.Get "content" | .RenderString | safeHTML }}
+        {{ partial "note/content.html" .}}
         {{ if .Page.IsPage }}
             {{ partial "note/backlinks.html" . }}
         {{ end }}

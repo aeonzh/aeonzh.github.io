@@ -1,0 +1,9 @@
+{{ .Scratch.Set "content" .RawContent }}
+{{ range .Site.RegularPages }}
+    {{ $wikilink :=  print "\\[\\[" .Title "\\]\\]" }}
+    {{ if findRE $wikilink $.RawContent }}
+        {{ $markdown_link := printf "[%s](%s)" .Title .Permalink }}
+        {{ $.Scratch.Set "content" (replaceRE $wikilink $markdown_link ($.Scratch.Get "content")) }} 
+    {{ end }}
+{{ end }}
+{{ $.Scratch.Get "content" | .RenderString | safeHTML }}
